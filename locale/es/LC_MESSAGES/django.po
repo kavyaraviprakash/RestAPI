@@ -1,0 +1,298 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-11 14:43+0530\n"
+"PO-Revision-Date: 2021-08-11 04:01-0551\n"
+"Last-Translator: b'  <kavyaravi39@gmail.com>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.9.3\n"
+
+#: cart/forms.py:12 cart/templates/cart/detail.html:17
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: cart/templates/cart/detail.html:7 cart/templates/cart/detail.html:11
+msgid "Your shopping cart"
+msgstr "Tu carro"
+
+#: cart/templates/cart/detail.html:15
+msgid "Image"
+msgstr "Imagen"
+
+#: cart/templates/cart/detail.html:16
+msgid "Product"
+msgstr "Producto"
+
+#: cart/templates/cart/detail.html:18
+msgid "Remove"
+msgstr "Eliminar"
+
+#: cart/templates/cart/detail.html:19
+msgid "Unit price"
+msgstr "Precio unitario"
+
+#: cart/templates/cart/detail.html:20
+msgid "Price"
+msgstr "Precio"
+
+#: cart/templates/cart/detail.html:55
+msgid "Continue shopping"
+msgstr "Continuar comprando"
+
+#: cart/templates/cart/detail.html:57
+msgid "Checkout"
+msgstr "Comprar"
+
+#: myshop/settings.py:177
+msgid "English"
+msgstr "Inglés"
+
+#: myshop/settings.py:178
+msgid "Spanish"
+msgstr "Español"
+
+#: myshop/urls.py:9
+msgid "admin/"
+msgstr "administración/"
+
+#: myshop/urls.py:10
+msgid "cart/"
+msgstr "carro/"
+
+#: myshop/urls.py:11
+msgid "orders/"
+msgstr "pedidos/"
+
+#: myshop/urls.py:12
+msgid "payment/"
+msgstr "pago/"
+
+#: payment/templates/payment/process.html:3
+#: payment/templates/payment/process.html:6
+msgid "Pay by credit card"
+msgstr "Pagar con tarjeta de crédito"
+
+#: payment/templates/payment/process.html:9
+msgid "Card Number"
+msgstr "Número de tarjeta"
+
+#: payment/templates/payment/process.html:12
+msgid "CVV"
+msgstr "CVV"
+
+#: payment/templates/payment/process.html:15
+msgid "Expiration Date"
+msgstr "Fecha de caducidad"
+
+#: payment/urls.py:8
+msgid "process/"
+msgstr "proceso/"
+
+#: payment/urls.py:9
+msgid "done/"
+msgstr "hecho/"
+
+#: payment/urls.py:10
+msgid "canceled/"
+msgstr "cancelado/"
+
+#: shop/templates/registration/login.html:10
+msgid "Log in"
+msgstr "acceso"
+
+#: shop/templates/registration/login.html:17
+#: shop/templates/registration/password_reset.html:7
+msgid "Forgotten your password?"
+msgstr "¿Olvidaste tu contraseña?"
+
+#: shop/templates/registration/password_change.html:5
+#: shop/templates/registration/password_change.html:7
+#, fuzzy
+#| msgid "Change password"
+msgid "Change your password"
+msgstr "Cambiar la contraseña"
+
+#: shop/templates/registration/password_change.html:8
+msgid "Use the form below to change your password."
+msgstr "Utilice el siguiente formulario para cambiar su contraseña."
+
+#: shop/templates/registration/password_changed.html:3
+#: shop/templates/registration/password_changed.html:5
+msgid "Password changed"
+msgstr "contraseña cambiada"
+
+#: shop/templates/registration/password_changed.html:6
+msgid "Your password has been successfully changed."
+msgstr "Su contraseña ha sido cambiada exitosamente."
+
+#: shop/templates/registration/password_reset.html:5
+#: shop/templates/registration/reset_confirm.html:5
+#: shop/templates/registration/reset_confirm.html:7
+msgid "Reset your password"
+msgstr "Restablecer su contraseña"
+
+#: shop/templates/registration/password_reset.html:8
+msgid "Enter your e-mail address to obtain a new password."
+msgstr ""
+"Ingrese su dirección de correo electrónico para obtener una nueva contraseña."
+
+#: shop/templates/registration/reset_complete.html:5
+msgid "Password reset"
+msgstr "Restablecimiento de contraseña"
+
+#: shop/templates/registration/reset_complete.html:8
+msgid "Your password has been reset successfully."
+msgstr "Su contraseña se ha restablecido correctamente."
+
+#: shop/templates/registration/reset_confirm.html:9
+msgid "Please enter your new password:"
+msgstr "Ingrese su nueva contraseña:"
+
+#: shop/templates/registration/reset_confirm.html:16
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+"El enlace de restablecimiento de contraseña no es válido, posiblemente "
+"porque ya se ha utilizado. Solicite un nuevo restablecimiento de contraseña."
+
+#: shop/templates/registration/reset_email_sent.html:8
+msgid "Password Reset"
+msgstr "Restablecimiento de contraseña"
+
+#: shop/templates/registration/reset_email_sent.html:9
+msgid ""
+"We've emailed you instructions for resetting your password. If you don't "
+"receive an email, please make sure you've entered the address you registered "
+"with."
+msgstr ""
+"Le enviamos instrucciones por correo electrónico para restablecer su "
+"contraseña. Si no recibe un correo electrónico, asegúrese de haber ingresado "
+"la dirección con la que se registró."
+
+#: shop/templates/registration/signup.html:10
+msgid "Sign up"
+msgstr "Regístrate"
+
+#: shop/templates/registration/signup_successful.html:9
+msgid "Your account has been created successfully."
+msgstr "Su cuenta ha sido creada con éxito."
+
+#: shop/templates/shop/base.html:9 shop/templates/shop/base.html:44
+msgid "E-Buy"
+msgstr "E-Buy"
+
+#: shop/templates/shop/base.html:14
+msgid "Language"
+msgstr "Idioma"
+
+#: shop/templates/shop/base.html:52
+msgid "Home"
+msgstr "Casa"
+
+#: shop/templates/shop/base.html:55
+msgid "Products"
+msgstr "Productos"
+
+#: shop/templates/shop/base.html:59
+msgid "About Us"
+msgstr "Sobre nosotros"
+
+#: shop/templates/shop/base.html:62
+msgid "Contact Us"
+msgstr "Contacta con nosotros"
+
+#: shop/templates/shop/base.html:73
+#, fuzzy
+#| msgid "orders/"
+msgid "Orders"
+msgstr "pedidos/"
+
+#: shop/templates/shop/base.html:74
+msgid "Change password"
+msgstr "Cambiar la contraseña"
+
+#: shop/templates/shop/base.html:75
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: shop/templates/shop/base.html:93
+msgid "Your cart"
+msgstr "Tu carro"
+
+#: shop/templates/shop/base.html:95
+#, python-format
+msgid ""
+"\n"
+"                         %(items)s item, $%(total)s\n"
+"                     "
+msgid_plural ""
+"\n"
+"                          %(items)s items, $%(total)s\n"
+"                      "
+msgstr[0] ""
+"\n"
+"\"%(total_items)s producto%(total_items_plural)s, $%(total_price)s\""
+msgstr[1] ""
+"\n"
+"\"%(total_items)s producto%(total_items_plural)s, $%(total_price)s\""
+
+#: shop/templates/shop/base.html:102
+msgid "Your cart is empty."
+msgstr "Tu carro está vacío."
+
+#: shop/templates/shop/product/aboutus.html:12
+msgid "E-BUY"
+msgstr "COMPRA ELECTRÓNICA"
+
+#: shop/templates/shop/product/aboutus.html:28
+msgid "Our Testimonials"
+msgstr "Nuestras Testimonios"
+
+#: shop/templates/shop/product/contactus.html:8
+msgid "BE IN TOUCH"
+msgstr "ESTAR EN CONTACTO"
+
+#: shop/templates/shop/product/contactus.html:9
+msgid "We would love to hear from you!"
+msgstr "¡Nos encantaría saber de ti!"
+
+#: shop/templates/shop/product/detail.html:20
+msgid "Add to cart"
+msgstr "Añadir al carro"
+
+#: shop/templates/shop/product/list.html:13
+msgid "Categories"
+msgstr "Categorías"
+
+#: shop/templates/shop/product/list.html:16
+msgid "All"
+msgstr "Todos"
+
+#: shop/templates/shop/product/list.html:27
+msgid "Currency Selection"
+msgstr "Selección de moneda"
+
+#~ msgid ""
+#~ "We hope you enjoy our products as much as we enjoy offering them to you. "
+#~ "If you have any questions or comments, please don't hesitate to contact "
+#~ "us."
+#~ msgstr ""
+#~ "Esperamos que disfrute de nuestros productos tanto como nosotros "
+#~ "disfrutamos ofrecérselos. Si tiene alguna pregunta o comentario, no dude "
+#~ "en contactarnos."
+
+#~ msgid "EBuy"
+#~ msgstr "EBuy"

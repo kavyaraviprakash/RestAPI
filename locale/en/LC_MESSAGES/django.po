@@ -1,0 +1,271 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-11 14:43+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: cart/forms.py:12 cart/templates/cart/detail.html:17
+msgid "Quantity"
+msgstr ""
+
+#: cart/templates/cart/detail.html:7 cart/templates/cart/detail.html:11
+msgid "Your shopping cart"
+msgstr ""
+
+#: cart/templates/cart/detail.html:15
+msgid "Image"
+msgstr ""
+
+#: cart/templates/cart/detail.html:16
+msgid "Product"
+msgstr ""
+
+#: cart/templates/cart/detail.html:18
+msgid "Remove"
+msgstr ""
+
+#: cart/templates/cart/detail.html:19
+msgid "Unit price"
+msgstr ""
+
+#: cart/templates/cart/detail.html:20
+msgid "Price"
+msgstr ""
+
+#: cart/templates/cart/detail.html:55
+msgid "Continue shopping"
+msgstr ""
+
+#: cart/templates/cart/detail.html:57
+msgid "Checkout"
+msgstr ""
+
+#: myshop/settings.py:177
+msgid "English"
+msgstr "Inglés"
+
+#: myshop/settings.py:178
+msgid "Spanish"
+msgstr "Español"
+
+#: myshop/urls.py:9
+msgid "admin/"
+msgstr ""
+
+#: myshop/urls.py:10
+msgid "cart/"
+msgstr ""
+
+#: myshop/urls.py:11
+msgid "orders/"
+msgstr ""
+
+#: myshop/urls.py:12
+msgid "payment/"
+msgstr ""
+
+#: payment/templates/payment/process.html:3
+#: payment/templates/payment/process.html:6
+msgid "Pay by credit card"
+msgstr ""
+
+#: payment/templates/payment/process.html:9
+msgid "Card Number"
+msgstr ""
+
+#: payment/templates/payment/process.html:12
+msgid "CVV"
+msgstr ""
+
+#: payment/templates/payment/process.html:15
+msgid "Expiration Date"
+msgstr ""
+
+#: payment/urls.py:8
+msgid "process/"
+msgstr ""
+
+#: payment/urls.py:9
+msgid "done/"
+msgstr ""
+
+#: payment/urls.py:10
+msgid "canceled/"
+msgstr ""
+
+#: shop/templates/registration/login.html:10
+msgid "Log in"
+msgstr ""
+
+#: shop/templates/registration/login.html:17
+#: shop/templates/registration/password_reset.html:7
+msgid "Forgotten your password?"
+msgstr ""
+
+#: shop/templates/registration/password_change.html:5
+#: shop/templates/registration/password_change.html:7
+msgid "Change your password"
+msgstr ""
+
+#: shop/templates/registration/password_change.html:8
+msgid "Use the form below to change your password."
+msgstr ""
+
+#: shop/templates/registration/password_changed.html:3
+#: shop/templates/registration/password_changed.html:5
+msgid "Password changed"
+msgstr ""
+
+#: shop/templates/registration/password_changed.html:6
+msgid "Your password has been successfully changed."
+msgstr ""
+
+#: shop/templates/registration/password_reset.html:5
+#: shop/templates/registration/reset_confirm.html:5
+#: shop/templates/registration/reset_confirm.html:7
+msgid "Reset your password"
+msgstr ""
+
+#: shop/templates/registration/password_reset.html:8
+msgid "Enter your e-mail address to obtain a new password."
+msgstr ""
+
+#: shop/templates/registration/reset_complete.html:5
+msgid "Password reset"
+msgstr ""
+
+#: shop/templates/registration/reset_complete.html:8
+msgid "Your password has been reset successfully."
+msgstr ""
+
+#: shop/templates/registration/reset_confirm.html:9
+msgid "Please enter your new password:"
+msgstr ""
+
+#: shop/templates/registration/reset_confirm.html:16
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+
+#: shop/templates/registration/reset_email_sent.html:8
+msgid "Password Reset"
+msgstr ""
+
+#: shop/templates/registration/reset_email_sent.html:9
+msgid ""
+"We've emailed you instructions for resetting your password. If you don't "
+"receive an email, please make sure you've entered the address you registered "
+"with."
+msgstr ""
+
+#: shop/templates/registration/signup.html:10
+msgid "Sign up"
+msgstr ""
+
+#: shop/templates/registration/signup_successful.html:9
+msgid "Your account has been created successfully."
+msgstr ""
+
+#: shop/templates/shop/base.html:9 shop/templates/shop/base.html:44
+msgid "E-Buy"
+msgstr ""
+
+#: shop/templates/shop/base.html:14
+msgid "Language"
+msgstr ""
+
+#: shop/templates/shop/base.html:52
+msgid "Home"
+msgstr ""
+
+#: shop/templates/shop/base.html:55
+msgid "Products"
+msgstr ""
+
+#: shop/templates/shop/base.html:59
+msgid "About Us"
+msgstr ""
+
+#: shop/templates/shop/base.html:62
+msgid "Contact Us"
+msgstr ""
+
+#: shop/templates/shop/base.html:73
+msgid "Orders"
+msgstr ""
+
+#: shop/templates/shop/base.html:74
+msgid "Change password"
+msgstr ""
+
+#: shop/templates/shop/base.html:75
+msgid "Logout"
+msgstr ""
+
+#: shop/templates/shop/base.html:93
+msgid "Your cart"
+msgstr ""
+
+#: shop/templates/shop/base.html:95
+#, python-format
+msgid ""
+"\n"
+"                         %(items)s item, $%(total)s\n"
+"                     "
+msgid_plural ""
+"\n"
+"                          %(items)s items, $%(total)s\n"
+"                      "
+msgstr[0] ""
+msgstr[1] ""
+
+#: shop/templates/shop/base.html:102
+msgid "Your cart is empty."
+msgstr ""
+
+#: shop/templates/shop/product/aboutus.html:12
+msgid "E-BUY"
+msgstr ""
+
+#: shop/templates/shop/product/aboutus.html:28
+msgid "Our Testimonials"
+msgstr ""
+
+#: shop/templates/shop/product/contactus.html:8
+msgid "BE IN TOUCH"
+msgstr ""
+
+#: shop/templates/shop/product/contactus.html:9
+msgid "We would love to hear from you!"
+msgstr ""
+
+#: shop/templates/shop/product/detail.html:20
+msgid "Add to cart"
+msgstr ""
+
+#: shop/templates/shop/product/list.html:13
+msgid "Categories"
+msgstr ""
+
+#: shop/templates/shop/product/list.html:16
+msgid "All"
+msgstr ""
+
+#: shop/templates/shop/product/list.html:27
+msgid "Currency Selection"
+msgstr ""

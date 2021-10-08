@@ -1,0 +1,63 @@
+{% extends 'shop/base.html' %}
+{% load i18n %}
+{% load static %}
+{% block content %}
+      <section id="contant" class="contant main-heading" style="padding-bottom:0;margin-bottom:-1px;position:relative;z-index:1;">
+         <div class="aboutus">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12 col-sm-12">
+                     <div class="col-md-7 col-sm-7 col-xs-12">
+                        <div class="full">
+                           <h3>{%trans "E-BUY" %}</h3>
+                           <p>Welcome to E-Buy, one shop for all things to purchase products completely online. We're dedicated to providing you the very best of products, with an emphasis on fast delivery and customer satisfaction.
+                               Founded in 1947, EBuy has come a long way from its beginnings in New York. When E-Buy was first started out, their passion for "eco-friendly cleaning products, quick delivery, and customer satisfaction" drove them to start their own business.
+                               We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.
+
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12 col-sm-12">
+                      <div class="heading-main">
+                     <h3>{% trans "Our Testimonials" %}</h3>
+                     </div>
+                     <div class="testimonial-slider">
+                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                           <!-- Carousel Slides / Quotes -->
+                           <div class="carousel-inner text-center">
+                              <!-- Quote 1 -->
+                              <div class="item active">
+                                 <blockquote>
+                                    <div class="row">
+                                       <div class="col-sm-10 col-sm-offset-1">
+                                          <p>“If you have kids that play sports...You Need This!”</p>
+                                          <small>Pat Tyson</small>
+                                       </div>
+                                    </div>
+                                 </blockquote>
+                              </div>
+                              <!-- Quote 2 -->
+                              <div class="item">
+                                 <blockquote>
+                                    <div class="row">
+                                       <div class="col-sm-10 col-sm-offset-1">
+                                          <p>“A one shop for all customer needs...Thanks E-Buy” </p>
+                                          <small>Ross Perot</small>
+                                       </div>
+                                    </div>
+                                 </blockquote>
+                              </div>
+                           </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+{% endblock %}
